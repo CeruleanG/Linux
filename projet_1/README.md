@@ -8,8 +8,8 @@ If a float number is to be the result, the calculator keeps 3 number after the d
 
 The calculator detects following errors:
 
-   a void value as either a or b
+   -a void value as either a or b
    
-   a non arthmetic operator symbol ($ for an example)
+   -a non arthmetic operator symbol ($ for an example)
    
-   divided by 0
+   -divided by 0
