@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "This is an arithmetical calculator."
+echo "This is an arithmetic calculator."
 contin=1
 while [ $contin == 1 ] 
 do
