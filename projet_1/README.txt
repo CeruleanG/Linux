@@ -5,7 +5,6 @@ two integers(a and b) followed by one arthmetic operation (either +,-,* or /)
 If a float number is to be the result, the calculator keeps 3 number after the decimal point.
 
 
-
 The calculator detects following errors:
 
    -a void value as either a or b
