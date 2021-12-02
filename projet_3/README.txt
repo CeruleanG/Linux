@@ -1,9 +1,6 @@
-1
-bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
-sudo apt-get install npm
-  sudo npm i npm -g #upgrading
-cd ./home/pi/.node-red
-  sudo npm install -g node-red-admin
+This node-red module is a dashboard that reads RP's CPU temperature.
 
-sudo node-red-start
-navigator -> http://localhost:1880/
+In RN interface, the first node(timestamp) sends a request every 3 second to take a reading.
+The seconde node(RPi Temp) takes the reading of the CPU upon request via the bash command "vcgencmd measure_temp". The output will be in form of a string "temp=xx.x'C"
+The thrid node(extract value) cut the string into a numeric value(from "temp=xx.x'C" into "xx.x").
+The two last nodes(CPU Temperature & chart) show the reading by a gauge and a chart respectively.
