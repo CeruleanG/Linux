@@ -6,8 +6,11 @@ sudo chmpd -R 770 /var/www/html/
 
 Then it is modified to display a CV.
 
+
 After that, in order to set up a DNS, install the DNSmasq via:
 
 sudo apt install dnsmasq
+
+
 
 
