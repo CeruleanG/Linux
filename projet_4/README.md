@@ -1,3 +1,5 @@
+# SenseHat via HQTT
+
 This projet allows two Rasberry Pi to remotely exchange data via MQTT protocol.
 
 To do this you need to do the following preperations first:  
