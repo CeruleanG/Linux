@@ -2,3 +2,4 @@
 (done) Projet 2: CV  
 (done) Projet 3: node-red  
 (done) Projet 4: sense_hat  
+(fail) Proket 5: Cross-compilation
